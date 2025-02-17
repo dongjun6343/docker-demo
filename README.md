@@ -52,6 +52,10 @@ docker container run -d -p 8082:8080 bootdocker:latest
 -- 컨테이너 이름을 지정하는 옵션
 docker container run -d --name bootdocker -p 8082:8080 bootdocker:latest
 
+도커 운영과 관리를 위한 명령 
+## prune
 
+docker container prune
+docker image prune
 
 ```
